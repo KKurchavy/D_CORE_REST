@@ -6,7 +6,6 @@ const jwt = require('jsonwebtoken');
 const { tokenController } = require("../controllers/Token.controller");
 const { userController } = require("../controllers/User.controller");
 
-const { config } = require('../config');
 
 class AuthRouter {
   constructor() {
